@@ -1,0 +1,859 @@
+/* Importing the font */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans;
+
+}
+
+/* nav styles */
+
+header > nav {
+    width: 1513px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 890px;
+}
+
+header > nav p {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+header > nav button {
+    all: unset;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
+header > nav button:hover {
+    background-color: #C09891;
+    color: #2A0800;
+    border: 1px solid #2A0800;
+}
+
+/* banner style */
+
+header .banner {
+    width: 1513px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header .banner .banner-content {
+    width: 1210px;
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+header .banner .banner-content .banner-content-left {
+    width: 588px;
+    height: 326px;
+}
+
+
+header .banner .banner-content .subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 23px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+header .banner .banner-content .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+header .banner .banner-content button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 32px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+header .banner .banner-content .banner-content-right {
+    width: 474.03px;
+    height: 400px;
+    background: url(../assets/hero.png);
+}
+
+header .banner .banner-content button:hover {
+    background-color: #588157;
+    color: black;
+}
+
+/* main styles */
+
+main {
+    width: 1513px;
+    height: 2880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .content-vision {
+    width: 1210px;
+    height: 438px;
+}
+
+main .content-vision > .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .visions {
+    width: 1210px;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+main .content-vision .visions .vision {
+    width: 388px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-top: 32px;
+}
+
+main .content-vision .visions .vision:hover {
+    background: #bcffdb;
+}
+
+main .content-vision .visions .vision-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+main .content-vision .visions .vision-2 .vision-content button {
+    background: rgb(9, 161, 92);
+}
+
+main .content-vision .visions .vision-3 {
+    background-color: rgb(247, 235, 207);
+}
+
+main .content-vision .visions .vision .vision-content {
+    width: 358px;
+    height: 295px;
+    padding: 30px;
+}
+
+main .content-vision .visions .vision .icon {
+    width: 62px;
+    height: 62px;
+    background: url(../assets/card-icon.png);
+    margin-bottom: 24px;
+}
+
+main .content-vision .visions .vision .heading {
+    width: 327px;
+    height: 108px;
+    margin-bottom: 24px;
+}
+
+main .content-vision .visions .vision .heading .title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .content-vision .visions .vision .heading .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .visions .vision button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 10px 19px;
+    cursor: pointer;
+}
+
+main .content-vision .visions .vision button:hover {
+    color: #264653;
+    background: #2a9d8f;
+}
+
+main .content-quote {
+    width: 1210px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    z-index: -2;
+    margin-top: 32px;
+
+}
+
+main .content-quote .speech {
+    width: 1164px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 12px;
+
+}
+
+main .content-quote .speecher {
+    width: 1210px;
+    height: 52px;
+}
+
+main .content-quote .speech img {
+    z-index: -1;
+    position: absolute;
+    top: 1232px;
+}
+
+main .content-quote .speech p {
+    position: relative;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 1;
+}
+
+main .content-quote .speecher .name {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 22px;
+    margin-bottom: 4px;
+}
+
+main .content-quote .speecher .position {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 22px;
+}
+
+main .recent-news {
+    width: 1210px;
+    height: 120px;
+    margin-top: 80px;
+}
+
+main .recent-news .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+main .recent-news .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .new-sat-left {
+    width: 1210px;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #DDE9FD;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+main .new-sat-left .image {
+    width: 385px;
+    height: 306px;
+    background-color: black;
+    border-radius: 24px;
+    background: url(../assets/satelite.png);
+}
+
+main .new-sat-left .content {
+    width: 703px;
+    height: 290px;
+}
+
+main .new-sat-left .content .heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .logo {
+    width: 134px;
+    height: 40px;
+    background: url(../assets/al-jazeera.png);
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .publish-time {
+    display: flex;
+    gap: 12px;
+}
+
+main .new-sat-left .content .publish-time .date, .time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .news {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+main .new-sat-left .content button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+main .new-sat-left .content button:hover {
+    background-color: #8ecae6;
+    color: #023047;
+}
+
+main .new-sat-right {
+    width: 1210px;
+    height: 402px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #DDE9FD;
+    gap: 32px;
+    margin-top: 12px;
+}
+
+main .new-sat-right .image {
+    width: 385px;
+    height: 306px;
+    background-color: black;
+    border-radius: 24px;
+    background: url(../assets/satelite.png);
+}
+
+main .new-sat-right .content {
+    width: 703px;
+    height: 290px;
+}
+
+main .new-sat-right .content .heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .logo {
+    width: 134px;
+    height: 40px;
+    background: url(../assets/al-jazeera.png);
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .publish-time {
+    display: flex;
+    gap: 12px;
+}
+
+main .new-sat-right .content .publish-time .date, .time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .news {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+main .new-sat-right .content button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
+main .new-sat-right .content button:hover {
+    background-color: #8ecae6;
+    color: #023047;
+}
+
+main .content-donate {
+    width: 1210px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+main .content-donate .heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .content-donate .description {
+    width: 1044px;
+    height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+main .content-donate .money-section {
+    width: 1010px;
+    height: 128px;
+    display: flex;
+    gap: 22px;
+    margin-bottom: 32px;
+}
+
+main .content-donate .money-section .one {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .two {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .three {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .four {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .one:hover {
+    background: #e9ecef;
+    background-color: #136f63;
+    color: white;
+}
+
+main .content-donate .money-section .two:hover {
+    background: #e9ecef;
+    background-color: #1bc221;
+    color: white;
+}
+
+main .content-donate .money-section .three:hover {
+    background: #e9ecef;
+    background-color: #c2951b;
+    color: white;
+}
+
+main .content-donate .money-section .four:hover {
+    background: #e9ecef;
+    background-color: #c21b82;
+    color: white;
+}
+
+main .content-donate input {
+    all: unset;
+    width: 974px;
+    height: 64px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+main .content-donate .done {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 34px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
+main .content-donate .done:hover {
+    background-color: #6fffe9;
+    color: #0b132b;
+}
+
+main .newsletter {
+    width: 1210px;
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+main .newsletter .newsletter-content {
+    width: 710px;
+    height: 235px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .newsletter .newsletter-content .heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+main .newsletter .newsletter-content .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .newsletter .newsletter-content input {
+    all: unset;
+    width: 567px;
+    height: 56px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .newsletter .newsletter-content input::placeholder {
+    padding-left: 38px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+main .newsletter .newsletter-content .subscribe button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 30px;
+    position: relative;
+    left: -4px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+main .newsletter .newsletter-content .promise {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .newsletter .newsletter-content .subscribe button:hover {
+    background-color: #2a3d45;
+    color: white;
+}
+
+footer {
+    width: 1513px;
+    height: 226px;
+    background-color: #e4f0d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 23px;
+    margin-bottom: 20px;
+}
+
+footer .facebook {
+    width: 26.55px;
+    height: 24px;
+    background: url(../assets/facebook.png);
+    cursor: pointer;
+}
+
+footer .instagram {
+    width: 26.55px;
+    height: 24px;
+    background: url(../assets/instagram.png);
+    cursor: pointer;
+}
+
+footer .x {
+    width: 26.55px;
+    height: 24px;
+    background: url(../assets/x.png);
+    cursor: pointer;
+}
+
+footer .line {
+    width: 1066px;
+    height: 0;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin-top: 31.5px;
+    margin-bottom: 31.5px;
+}
+
+footer .copyright {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
