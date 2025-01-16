@@ -857,3 +857,7 @@ footer .copyright {
     letter-spacing: 0%;
     text-align: center;
 }
+
+.hider {
+    display: none;
+}
