@@ -8,6 +8,11 @@
 
 }
 
+body {
+    max-width: 1513px;
+    margin: 0 auto;
+}
+
 /* nav styles */
 
 header > nav {
