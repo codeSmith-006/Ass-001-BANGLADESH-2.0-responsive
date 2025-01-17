@@ -866,3 +866,19 @@ footer .copyright {
 .hider {
     display: none;
 }
+
+@media screen and (max-width: 576px) {
+    header .banner .banner-content {
+        flex-direction: column;
+        width: 685px;
+        height: 830px;
+    }
+
+    header > nav {
+        gap: 335px;
+    }
+
+    header .banner .banner-content {
+        gap: 22px;
+    }
+}
